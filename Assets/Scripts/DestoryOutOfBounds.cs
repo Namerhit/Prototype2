@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestoryOutOfBounds : MonoBehaviour
 {
     private float _topBound = 30f;
+   
     void Start()
     {
         

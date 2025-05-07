@@ -8,6 +8,7 @@ public class DetectCollisions : MonoBehaviour
     public Slider hpSlider;
     private int _hp = 3;
     private GameManager _gameManager;
+    
     void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
@@ -30,6 +31,7 @@ public class DetectCollisions : MonoBehaviour
         
         _hp--;
         hpSlider.value = _hp;
+        
         if (_hp<=0)
         {
             _gameManager.AddScore();

@@ -9,6 +9,7 @@ public class SpawnManager : MonoBehaviour
     
     private float _posZ = 20f;
     private int[] _posX = new[] { -19, 19 };
+    
     void Start()
     {
         StartCoroutine(SpawnAnimal());

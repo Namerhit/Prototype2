@@ -11,7 +11,6 @@ public class MoveForward : MonoBehaviour
     private float _lowerBound = -10f;
     private float _xBound = 30f;
     
-    
     void Start()
     {
         _gameManager = FindObjectOfType<GameManager>();
